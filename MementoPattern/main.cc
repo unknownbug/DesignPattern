@@ -24,7 +24,7 @@ public:
     {};
 };
 
-//备忘录管理
+//备忘录管理, 如果角色比较多，可以加入map
 class MementoCaretaker {
 private:
     std::shared_ptr<RoleMemento> _memento;
