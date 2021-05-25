@@ -3,6 +3,7 @@
 #include <memory>
 #include <algorithm>
 
+//命令的执行者 receiver
 class Barbecuer
 {
 public:
@@ -15,6 +16,7 @@ public:
     }
 };
 
+//命令
 class ICommand
 {
 public:
@@ -64,6 +66,7 @@ public:
     }
 };
 
+//命令唤醒者  invoker
 class Waiter
 {
 public:
